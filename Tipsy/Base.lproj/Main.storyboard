@@ -70,7 +70,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="7Qb-Pe-jkP">
-                                        <rect key="frame" x="115.33333333333333" y="234" width="144.33333333333337" height="40"/>
+                                        <rect key="frame" x="115.33333333333331" y="234" width="144.33333333333337" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3A-Bj-XTX">
                                                 <rect key="frame" x="0.0" y="0.0" width="20.333333333333332" height="40"/>
@@ -165,7 +165,8 @@
                         <outlet property="splitNumberLabel" destination="b3A-Bj-XTX" id="kMu-fZ-1Ip"/>
                         <outlet property="tenPctButton" destination="Rwu-A9-VfH" id="T9r-Ew-tTj"/>
                         <outlet property="twentyPctButton" destination="CKa-YD-tVk" id="rkb-jU-0TR"/>
-                        <outlet property="zeroPcrButton" destination="NIj-D2-Uq5" id="rpG-k9-qCT"/>
+                        <outlet property="zeroPctButton" destination="NIj-D2-Uq5" id="rpG-k9-qCT"/>
+                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResults" id="fIx-CM-s32"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -177,7 +178,7 @@
             <objects>
                 <viewController id="Dnf-m2-FPm" customClass="ResultsViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E4v-0r-cyo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1aU-5P-VMi">
@@ -206,7 +207,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzV-gt-7rc">
-                                <rect key="frame" x="87.666666666666686" y="724" width="200" height="54"/>
+                                <rect key="frame" x="87.666666666666686" y="701" width="200" height="54"/>
                                 <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="1UD-Eo-t9U"/>
